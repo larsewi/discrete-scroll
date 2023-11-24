@@ -1,7 +1,7 @@
 #include <ApplicationServices/ApplicationServices.h>
 
 #define SIGN(x) (((x) > 0) - ((x) < 0))
-#define LINES 3
+#define LINES 2
 
 CGEventRef cgEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef event, void *refcon)
 {

@@ -3,7 +3,7 @@
 #define SIGN(x) (((x) > 0) - ((x) < 0))
 #define LINES 2
 
-CGEventRef cgEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef event, void *refcon)
+CGEventRef cgEventCallback(__attribute__((unused)) CGEventTapProxy proxy, __attribute__((unused)) CGEventType type, CGEventRef event, __attribute__((unused)) void *refcon)
 {
     if (!CGEventGetIntegerValueField(event, kCGScrollWheelEventIsContinuous)) {
         int64_t delta = CGEventGetIntegerValueField(event, kCGScrollWheelEventPointDeltaAxis1);

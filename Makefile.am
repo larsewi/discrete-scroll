@@ -1,6 +1,6 @@
 AM_CFLAGS = -Wall -Wextra -Wconversion -Wformat
 AM_LDFLAGS = -framework ApplicationServices
 
-bin_PROGRAMS = scroll
+bin_PROGRAMS = scrolld
 
-scroll_SOURCES = main.c
+scrolld_SOURCES = main.c

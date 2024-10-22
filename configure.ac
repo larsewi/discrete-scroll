@@ -2,11 +2,11 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.72])
-AC_INIT([scroll],
+AC_INIT([scrolld],
         [0.0.1],
-        [https://github.com/larsewi/scroll/issues],
+        [https://github.com/larsewi/discrete-scroll/issues],
         [scroll],
-        [https://github.com/larsewi/scrool])
+        [https://github.com/larsewi/discrete-scroll])
 AC_CONFIG_SRCDIR([main.c])
 AC_CONFIG_HEADERS([config.h])
 
